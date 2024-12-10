@@ -1,0 +1,1 @@
+The solution involves ensuring consistent units within the `calc()` function and carefully checking for balanced parentheses.  For example, change `width: calc(100% - 10);` to `width: calc(100% - 10px);` to specify a unit for the pixel value.  Always double-check parentheses placement, especially in complex calculations to avoid unexpected operator precedence.
